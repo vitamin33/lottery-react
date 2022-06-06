@@ -1,6 +1,6 @@
 import web3 from './web3';
 
-const address = '0x4fCAb755c3b35D3a6B7315561CC263821291159e';
+const address = '0x86269DcD8fdf45BFfDA0c4CEdf77016205CfAfBa';
 
 const abi = [
     {
@@ -20,7 +20,7 @@ const abi = [
         "name": "getPlayers",
         "outputs": [
             {
-                "internalType": "address[]",
+                "internalType": "address payable[]",
                 "name": "",
                 "type": "address[]"
             }
@@ -59,7 +59,7 @@ const abi = [
         "name": "players",
         "outputs": [
             {
-                "internalType": "address",
+                "internalType": "address payable",
                 "name": "",
                 "type": "address"
             }
